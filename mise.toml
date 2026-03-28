@@ -1,0 +1,3 @@
+[tools]
+babashka = { version = "latest", exe = "bb" }
+deno = "latest"

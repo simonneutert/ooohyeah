@@ -1,0 +1,7 @@
+{:bbin/bin {ooohyeah {:main-opts ["-m" "cmd"]}}
+ :paths ["src"]
+ :deps {ooohyeah/ooohyeah {:local/root "."}}
+ :tasks {cache {:doc "Loads and caches the Polymarket events/markets, '--help' for more details"
+                :task polymarket-api/-main}
+         tui {:doc "Starts a TUI to explore the Polymarket events"
+              :task tui/-main}}}

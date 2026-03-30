@@ -65,7 +65,8 @@ This will make the `ooohyeah` command available globally on your system.
 
 ### Containered
 
-I added a Dockerfile you to try. Make sure to pass the needed ENV variables.
+I added a Dockerfile you you to try.  
+Make sure to pass the needed ENV variables.
 
 There may be issues, I couldn't check it yet 🤓
 
